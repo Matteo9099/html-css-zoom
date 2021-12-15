@@ -48,7 +48,7 @@ i{
 /* --------- start main --------- */
 .container{
     width: 90%;
-    margin: 20px auto;
+    margin: 40px auto;
     flex-wrap: wrap;
 }
 
@@ -88,11 +88,15 @@ i{
     background-color: rgb(53, 52, 52);
 }
 
+.nav-row-bottom .list-item:hover, .list-right:hover, .arrow:hover{
+    cursor: pointer;
+}
+
 .list-left, .list-main{
     padding: 10px 0;
 }
 
-.list-left-item{
+.list-item{
     height: 50px;
     margin: 0 7px;
     align-items: center;
