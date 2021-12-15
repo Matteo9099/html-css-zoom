@@ -7,6 +7,7 @@
 body{
     background-color: #000;
     color: #fff;
+    font-family: sans-serif;
 }
 
 .flex{
@@ -18,6 +19,8 @@ body{
     width: 100%;
     align-items: center;
     justify-content: flex-end;
+    position: fixed;
+    z-index: 2;
 }
 
 .row-speaker{
@@ -45,13 +48,12 @@ i{
 /* --------- start main --------- */
 .container{
     width: 90%;
-    border: 2px solid red;
     margin: 20px auto;
     flex-wrap: wrap;
 }
 
 .items{
-    width: 15vw;
+    width: calc(100% / 5 - 20px);
     margin: 10px;
     position: relative;
 }
@@ -68,7 +70,49 @@ i{
     left: 0;
     padding: 2px;
     font-size: 14px;
+    width: 7vw;
     background-color: #525252;
 }
-
 /* --------- finish main --------- */
+
+
+/* --------- start footer --------- */
+.nav-row-bottom{
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(53, 52, 52);
+}
+
+.list-left-item{
+    height: 50px;
+    margin: 0 7px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.nav-row-bottom i{
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.nav-row-bottom p{
+    font-size: 15px;
+}
+
+.list-right{
+    width: 100px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: red;
+}
+
+.list-right p{
+    font-size: 12px;
+}
+/* --------- finish footer --------- */
+
