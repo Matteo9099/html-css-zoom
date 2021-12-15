@@ -35,3 +35,23 @@ body{
 .row-speaker i{
     padding: 0 7px;
 }
+
+/* --------- start main --------- */
+.container{
+    width: 90%;
+    border: 2px solid red;
+    margin: 20px auto;
+    flex-wrap: wrap;
+}
+
+.items{
+    width: 15vw;
+    margin: 10px;
+}
+
+.items img{
+    object-fit: cover;
+    width: 20vw;
+    height: 15vh;
+}
+/* --------- finish main --------- */
