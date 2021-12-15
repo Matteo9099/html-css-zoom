@@ -32,8 +32,14 @@ body{
     cursor: pointer;
 }
 
-.row-speaker i{
+.row-speaker span{
+    font-size: 14px;
+}
+
+i{
     padding: 0 7px;
+    font-size: 14px;
+    align-self: center;
 }
 
 /* --------- start main --------- */
@@ -47,6 +53,7 @@ body{
 .items{
     width: 15vw;
     margin: 10px;
+    position: relative;
 }
 
 .items img{
@@ -54,4 +61,14 @@ body{
     width: 20vw;
     height: 15vh;
 }
+
+.name{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2px;
+    font-size: 14px;
+    background-color: #525252;
+}
+
 /* --------- finish main --------- */
